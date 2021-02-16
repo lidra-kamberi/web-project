@@ -1,0 +1,84 @@
+body {
+    background-color: pink;
+    background-repeat: no-repeat;
+}
+
+.contact-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-container>span {
+    padding: 130px 0px;
+    color: rgb(196, 28, 86);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    text-shadow: 8px 8px rgb(92, 96, 77);
+    margin-top: 40px;
+}
+
+form {
+    max-width: 420px;
+    min-width: 400px;
+}
+
+.input {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgb(164, 45, 87);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.input:focus {
+    border: 2px solid rgb(197, 112, 142);
+}
+
+::placeholder {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(212, 95, 132);
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.submit {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: rgb(164, 45, 87);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.submit:hover {
+    background: rgb(110, 28, 57);
+}

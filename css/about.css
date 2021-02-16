@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.logo-name {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    margin: 40px 200px 80px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name>img {
+    width: 250px;
+    height: 250px;
+    margin-left: -50px;
+}
+
+.about-container>h2,
+.logo-name>h2 {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(117, 98, 116);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo-name>h2 {
+    margin-top: 100px;
+    margin-left: 15px;
+    color: rgb(68, 66, 66);
+    letter-spacing: 10px;
+    font-size: 45px;
+}
+
+.about-container .txt {
+    color: rgb(117, 98, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.5px;
+}
