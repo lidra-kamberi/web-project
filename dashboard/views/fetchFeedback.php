@@ -1,21 +1,6 @@
 <?php
-   // include_once '../database.php';
    include '../feedbackController.php';
    include '../feedback.php';
-   // if(isset($_POST['submit']))
-   // {    
-   //    $name = $_POST['name'];
-   //    $email = $_POST['email'];
-   //    $comment = $_POST['text'];
-   //    $sql = "INSERT INTO contact (name, email, comment)
-   //    VALUES ('$name','$email','$comment')";
-   //    if (mysqli_query($connection, $sql)) {
-   //       echo "New record has been added successfully!";
-   //    } else {
-   //       echo "Error: " . $sql . ":-" . mysqli_error($connection);
-   //    }
-   //    mysqli_close($connection);
-   // }
 
 
    if (isset($_POST['submit'])) 

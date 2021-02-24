@@ -10,7 +10,7 @@
     <main class="content-holder">
         <div class='contact-container'>
             <span>CONTACT US!</span>
-            <form action="dashboard/views/fetchFeedback.php" method="post">
+            <form action="dashboard/views/fetchFeedback.php" method="post" class="contact__form">
                 <input name="name" type="text" class="input" placeholder="First Name and Last Name" />
                 <div id="div1"></div><br>
                 <input name="email" type="text" class="input" placeholder="Email" />
