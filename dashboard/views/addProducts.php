@@ -5,7 +5,7 @@
 <div class='dashboard-admin-data'>
     <h1>Add Product</h1>
     <form class="mainForm" action="../businessLogic/addProduct.php" method="post" enctype="multipart/form-data">
-        <div class="login forms form-style">
+        <div class="forms form-style">
             <label for="">Title:</label>
             <input type="text" name='title' class="input" placeholder="title..." />
             <label for="">Image:</label>
