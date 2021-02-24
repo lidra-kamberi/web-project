@@ -21,8 +21,5 @@ class DatabaseConfig
     }
 
 }
-        // $con=mysqli_connect('localhost','root','','h-skincare');
-        // if($con->error){
-        //     echo 'Connection failed!';
-        // }
+       
 ?>
