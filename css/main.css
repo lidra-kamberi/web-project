@@ -138,9 +138,12 @@ footer {
     border-bottom: 3px solid white;
 }
 
+.color-white {
+    color: white;
+}
+
 h1 {
     font-weight: 900;
-    color: white;
     font-size: 24px;
     letter-spacing: 2px;
     margin: 0;
@@ -211,6 +214,19 @@ a:hover {
     clear: both;
     display: block;
 }
-
-
 /* Footer-end */
+
+/* Responsive */
+
+/* ----------- iPad ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .slider-content>img {
+        width: 770px;
+        height: 100%;
+    }
+}
+/* ----------- iPad ----------- */  
+
+/* Responsive */

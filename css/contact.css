@@ -82,3 +82,33 @@ textarea {
 .submit:hover {
     background: rgb(110, 28, 57);
 }
+
+/* Responsive */
+
+/* ----------- iPad ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .contact-container {
+        display: block;
+        padding: 0 120px 0 150px;
+        text-align: center;
+    }
+
+    .contact-container>span {
+        font-size: 55px;
+        padding: 0;
+    }
+
+    .contact__form {
+        margin-top: 30px;
+        max-width: inherit;
+    }
+
+    .content-holder {
+        height: 65vh;
+    }
+} 
+/* ----------- iPad ----------- */
+
+/* Responsive */

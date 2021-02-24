@@ -45,3 +45,42 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13.5px;
 }
+
+/* Responsive */
+
+/* ----------- iPad ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+    .logo-name {
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .logo-name>img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .logo-name>h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+    } 
+
+    .about-container {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .about-container .txt {
+        display: -webkit-box;
+        -webkit-line-clamp: 27;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+/* ----------- iPad ----------- */
+
+/* Responsive */
