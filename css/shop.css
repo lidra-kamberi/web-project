@@ -71,4 +71,39 @@ main .wrapper .item .add-to-cart {
 }
 /* ----------- iPad ----------- */
 
+/* ----------- iPhone X ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) { 
+    body {
+        width: 540px !important;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+
+    .title>h1 {
+        font-size: 25px;
+    }
+
+    main .wrapper {
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column  ;
+    }
+
+    main .wrapper .item {
+        margin: auto;
+        padding: 20px;   
+    }
+
+    main .wrapper .item>h2 {
+        margin: 0;
+        padding-top: 0;
+    }
+  }
+
+/* ----------- iPhone X ----------- */
+
 /* Responsive */

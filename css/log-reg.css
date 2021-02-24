@@ -83,3 +83,32 @@ form {
 }
 /* Login/Register-end */
 
+/* Responsive */
+
+/* ----------- iPhone X ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) { 
+
+    .container {
+        padding: 30px;
+        width: 300px;
+    }
+
+    .link-container a {
+        font-size: 16px;
+    }
+
+    .link-container a:first-child {
+        margin-right: 10px;
+    }
+
+    .container .forms .submit {
+        font-size: 13px;
+        margin: 0;
+    }
+  }
+/* ----------- iPhone X ----------- */
+
+/* Responsive */
+

@@ -229,4 +229,44 @@ a:hover {
 }
 /* ----------- iPad ----------- */  
 
+/* ----------- iPhone X ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) {  
+
+    .slider-content>img {
+        width: 380px;
+        height: 100%;
+    }
+
+    .topnav {
+        height: 40px;
+    }
+
+    .topnav>a>img {
+        margin-top: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .topnav .nav-bar {
+        font-size: 11px;
+        padding: 0 8px;
+    }
+
+    .footer-item h1 {
+        font-size: 15px;
+    }
+
+    .footer-item h2,
+    .footer-item h3,
+    .footer-item p,
+    .footer-item ul li,
+    .footer-inner:after {
+        font-size: 9px;
+    }
+  }
+
+/* ----------- iPhone X ----------- */
+
 /* Responsive */
