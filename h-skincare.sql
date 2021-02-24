@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2021 at 05:34 PM
+-- Generation Time: Feb 24, 2021 at 07:13 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.13
 
@@ -61,17 +61,6 @@ CREATE TABLE `contact` (
 INSERT INTO `contact` (`ID`, `name`, `email`, `comment`) VALUES
 (11, 'Erdita Jaha', 'erditajaha@gmail.com', 'Amazing skincare line! Recommend it!'),
 (12, 'Loreta Pajaziti', 'loretapajaziti@gmail.com', 'My skin has never felt better! Highly recommend!');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `home-slider`
---
-
-CREATE TABLE `home-slider` (
-  `ID` int(11) NOT NULL,
-  `image` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -145,12 +134,6 @@ ALTER TABLE `contact`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indexes for table `home-slider`
---
-ALTER TABLE `home-slider`
-  ADD PRIMARY KEY (`ID`);
-
---
 -- Indexes for table `products`
 --
 ALTER TABLE `products`
@@ -177,12 +160,6 @@ ALTER TABLE `aboutus`
 --
 ALTER TABLE `contact`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
---
--- AUTO_INCREMENT for table `home-slider`
---
-ALTER TABLE `home-slider`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `products`
